@@ -12,6 +12,10 @@ public class Answer {
     @Column(name = "correct_answer")
     private String correctAnswer;
 
+    @OneToOne
+    @JoinColumn(name = "question_id", nullable = false)
+    private Question question;
+
     public Integer getId() {return id;}
 
     public void setId(Integer id) {this.id = id;}
@@ -23,6 +27,10 @@ public class Answer {
     public String getCorrectAnswer() {return correctAnswer;}
 
     public void setCorrectAnswer(String correctAnswer) {this.correctAnswer = correctAnswer;}
+
+    public Question getQuestion() {return question;}
+
+    public void setQuestion(Question question) {this.question = question;}
 
 }
 

@@ -10,6 +10,7 @@ public class Question {
     private Integer id;
     private String text;
     @ManyToOne
+    @JoinColumn(name = "category_id", nullable = false)
     private Category category;
 
     public Integer getId() {
