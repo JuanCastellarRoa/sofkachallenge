@@ -22,10 +22,6 @@ public class PlayerService {
 
     public Player findByName(String name) {
         List<Player> players = playerRepository.findByName(name);
-        /*if (!players.isEmpty()) {
-            return players.get(0);
-        }
-        return null;*/
         return !players.isEmpty() ? players.get(0) : null;
     }
 
