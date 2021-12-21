@@ -1,0 +1,4 @@
+2021-12-20 01:12:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CATEGORIES" no encontrada
+Table "CATEGORIES" not found; SQL statement:
+insert into categories (level) values (null) [42102-200]
