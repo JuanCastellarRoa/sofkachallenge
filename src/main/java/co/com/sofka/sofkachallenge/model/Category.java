@@ -9,6 +9,13 @@ public class Category {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer level;
 
+    public Category() {
+    }
+
+    public Category(Integer level) {
+        this.level = level;
+    }
+
     public Integer getLevel() {
         return level;
     }

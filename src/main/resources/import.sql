@@ -1,3 +1,5 @@
+INSERT INTO players (id, name) VALUES (1, 'ralphdoe');
+
 INSERT INTO categories (level) values (1);
 INSERT INTO categories (level) values (2);
 INSERT INTO categories (level) values (3);

@@ -13,14 +13,14 @@ public class Game {
 
     @ManyToOne
     @JoinColumn(name = "game_id", nullable = false)
-    private Game game;
+    private Player player;
 
-    public Game getGame() {
-        return game;
+    public Player getPlayer() {
+        return player;
     }
 
-    public void setGame(Game game) {
-        this.game = game;
+    public void setPlayer(Player player) {
+        this.player = player;
     }
 
     public Integer getId() {

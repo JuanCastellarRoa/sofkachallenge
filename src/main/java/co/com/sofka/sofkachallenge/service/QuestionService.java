@@ -1,5 +1,6 @@
 package co.com.sofka.sofkachallenge.service;
 
+import co.com.sofka.sofkachallenge.model.Category;
 import co.com.sofka.sofkachallenge.model.Question;
 import co.com.sofka.sofkachallenge.repository.QuestionRepository;
 import org.springframework.stereotype.Service;
@@ -18,6 +19,10 @@ public class QuestionService {
 
     public List<Question> findAll() {
         return (List<Question>) questionRepository.findAll();
+    }
+
+    public List<Question> findByCategory(Category category) {
+        return questionRepository.findByCategory(category);
     }
 
 }

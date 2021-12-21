@@ -3,8 +3,8 @@ package co.com.sofka.sofkachallenge.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "questions")
-public class Gamer {
+@Table(name = "players")
+public class Player {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;

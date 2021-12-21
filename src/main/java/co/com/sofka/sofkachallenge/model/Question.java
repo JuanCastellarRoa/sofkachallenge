@@ -13,6 +13,9 @@ public class Question {
     @JoinColumn(name = "category_id", nullable = false)
     private Category category;
 
+    @OneToOne(fetch = FetchType.LAZY, mappedBy = "question")
+    private Answer answer;
+
     public Integer getId() {
         return id;
     }
@@ -35,6 +38,14 @@ public class Question {
 
     public void setCategory(Category category) {
         this.category = category;
+    }
+
+    public Answer getAnswer() {
+        return answer;
+    }
+
+    public void setAnswer(Answer answer) {
+        this.answer = answer;
     }
 }
 
