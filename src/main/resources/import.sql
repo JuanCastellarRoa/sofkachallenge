@@ -20,7 +20,7 @@ INSERT INTO questions (id, text, category_id) values (11, '¿Qué edad tenía Dr
 INSERT INTO questions (id, text, category_id) values (12, 'La nectarina es:', 3);
 INSERT INTO questions (id, text, category_id) values (13, 'El amaretto es un licor a base de:', 3);
 INSERT INTO questions (id, text, category_id) values (14, '¿Cuántos astronautas han tenido el privilegio de andar sobre la luna?', 3);
-INSERT INTO questions (id, text, category_id) values (15, 'El actor Daniel Ratcliffe ha encarnado en la gran pantalla a uno de estos personajes:', 3);
+INSERT INTO questions (id, text, category_id) values (15, 'El actor Daniel Radcliffe ha encarnado en la gran pantalla a uno de estos personajes:', 3);
 INSERT INTO questions (id, text, category_id) values (16, '¿Cuál de los siguientes hombres no tiene un elemento químico llamado como él?', 4);
 INSERT INTO questions (id, text, category_id) values (17, '¿En la corte de qué rey pasó Leonardo Da Vinci los dos últimos años de su vida?', 4);
 INSERT INTO questions (id, text, category_id) values (18, '¿Cuál de estas películas de los 80 se estrenó primero?', 4);
